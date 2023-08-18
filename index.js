@@ -1,5 +1,6 @@
 const { default: harukaConnect, useMultiFileAuthState, DisconnectReason, jidNormalizedUser, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto, delay } = require("@adiwajshing/baileys")
 const pino = require('pino')
+const keepAlive = require("./server.js")
 const { Boom } = require('@hapi/boom')
 const fs = require('fs')
 const chalk = require('chalk')
